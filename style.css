@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #6d28d9;
+  --white:#fff;
+  --red : #ef4444;
+  --black: #000;
+}
+
+body {
+  font-family: "PT Serif", serif;
+}
+  /* nav */
+.heading-center {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--white);
+    padding: 0.5rem;
+  }
+  nav {
+    background-color: var(--primary-color);
+  }
+ 
+  main{
+      min-height: 80vh;
+  }
+  /* privacy note */
+  .privacy-note{
+    border:  0.2px solid var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    background: white;
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 18px rgba(146,161,176,.15);
+
+}
+
+.privacy-close{
+    color:var(--red);
+    cursor: pointer;
+    font-size: 1rem;;
+}
+
+  .container-center {
+    max-width: 600px;
+    margin: auto;
+  }
+  .card{
+      box-shadow: 0 1px 18px rgb(146 161 176 / 25%);
+      margin : 1rem 0rem;
+  }
+  .header,#output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header img{
+      width: 30%;
+  }
+  label,
+  input {
+    display: block;
+    width: 60%;
+    margin:1rem auto;
+  }
+  
+  label {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  
+  input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: solid 2px var(--primary-color);
+    font-size: large;
+  }
+  /* remove arrows from input field */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#error-message {
+  display: block;
+  font-size: larger;
+  margin: 1rem auto;
+  color: var(--red);
+  text-align: center;
+}
+  
+  #check-btn {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--black);
+    margin: auto;
+    display: block;
+  }
+  
+  
+/* footer */
+.name {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+    color: var(--white);
+  }
+  .list-non-bulleted {
+    list-style-type: none;
+  }
+  
+  .list-inline {
+    display: inline;
+    padding: 0.2rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: var(--white);
+  }
+.footer{
+    background-color: var(--primary-color);
+}
+.footer div{
+  text-align: center;
+  padding:1rem;
+}
+  
