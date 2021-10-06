@@ -5,6 +5,7 @@ Built using Vanilla JS, HTML and CSS.
 Features 
 * Checks whether the input date given by the user is a palindrome or not
 * It checks the date in all formats: dd-mm-yyyy, mm-dd-yyyy, yyyy-mm-dd, dd-mm-yy, mm-dd-yy, yy-dd-mm
+* also tells nearest pallindrome date to user
 
 #### App Snapshot
 
